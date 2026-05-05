@@ -1,0 +1,2 @@
+Ali 21RIS001 4 3.45 Math Physics DLD OOP Robotics Calculus
+Sara 21RIS015 3 3.75 OOP DSA AI DLD Maths Stats

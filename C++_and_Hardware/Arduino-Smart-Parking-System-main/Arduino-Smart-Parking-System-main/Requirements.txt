@@ -1,0 +1,26 @@
+# Hardware Dependencies
+-----------------------
+- Microcontroller: Arduino UNO (or compatible ATmega328P board)
+- Actuator: Servo Motor (SG90 micro or MG995 standard)
+- Sensors: 2x IR Infrared Obstacle Avoidance Modules
+- Display: 16x2 LCD with I2C Interface Module (PCF8574T)
+- Power Supply: 5V USB or External DC Jack (7-12V)
+
+# Software & Library Dependencies
+---------------------------------
+IDE: Arduino IDE 1.8.x or 2.x
+
+Required Libraries:
+1. Wire.h
+   - Type: Built-in (Standard AVR)
+   - Usage: I2C Communication
+
+2. Servo.h
+   - Type: Built-in (Standard AVR)
+   - Usage: PWM Signal for Servo Control
+
+3. LiquidCrystal_I2C.h
+   - Type: External
+   - Recommended Version: 1.1.2
+   - Author: Frank de Brabander / John Rickman
+   - Installation: Search "LiquidCrystal I2C" in Arduino Library Manager
